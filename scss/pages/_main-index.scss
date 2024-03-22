@@ -1,0 +1,17 @@
+.inicio {
+	img {
+		width: 700px;
+		height: 500px;
+	}
+	display: flex;
+	justify-content: space-around;
+	text-align: justify;
+	padding: 20px;
+}
+.parrafos-inicio {
+	p {
+		font-size: 20px;
+	}
+	display: table-column;
+	margin: 40px;
+}

@@ -1,0 +1,40 @@
+.menu-navegacion {
+	img {
+		width: 100px;
+	}
+}
+header {
+	background-color: #c77305;
+	background-size: cover;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px;
+	nav {
+		ul {
+			list-style: none;
+			display: flex;
+			column-gap: 15px;
+			li {
+				a {
+					color: #ffd08a;
+					text-decoration: none;
+					font-size: 18px;
+					font-weight: bolder;
+					text-transform: uppercase;
+					font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+				}
+			}
+		}
+	}
+	main {
+		ul {
+			li {
+				a {
+					color: #ffd08a;
+					text-decoration: line-through;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+@media screen and (max-width:768px) {
+	header {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.menu-navegacion {
+		flex-direction: column;
+	}
+	.inicio {
+		flex-direction: column;
+		justify-content: center;
+		img {
+			width: 300px;
+			height: 200px;
+			padding: 0;
+			box-sizing: border-box none;
+		}
+	}
+	.parrafos-inicio {
+		flex-direction: column;
+		justify-content: center;
+		padding: 0;
+		box-sizing: border-box none;
+	}
+}
